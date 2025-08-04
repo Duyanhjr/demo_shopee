@@ -37,21 +37,6 @@ html {
 }
 
 /* Reponsive */
-.grid {
-    /*  */
-    width: 1200px;
-    /* Chiều rộng tối đa: 1200px */
-    max-width: 100%;
-    /* Tự động căn giữa */
-    margin: 0 auto;
-}
-
-/* grid full width device */
-.grid__full-width {
-    /*  */
-    width: 100%;
-}
-
 /*  */
 .grid__row {
     display: flex;

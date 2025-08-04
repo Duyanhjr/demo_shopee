@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <!-- linkMainCss -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- fontAwesome -->
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.7.2-web/css/all.min.css">
     <!-- fontsText -->
@@ -22,8 +25,8 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
-                <nav class="header__navbar">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng DA-Shop
@@ -135,7 +138,7 @@
 
                 <!-- Header with search -->
                 <div class="header-with-search">
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg viewBox="0 0 192 65" class="header__logo-img">
                                 <g fill-rule="evenodd">
@@ -381,7 +384,7 @@
 
         <div class="app__container">
             <!-- Side bar -->
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -401,7 +404,7 @@
                     </div>
     
                     <div class="grid__column-10">
-                        <div class="home-filter">
+                        <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__title">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
                             <button class="home-filter__btn btn btn--primary">Mới nhất</button>
@@ -852,7 +855,7 @@
         </div>
 
         <footer class="footer-heading">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row footer__title">
                     <div class="grid__column2-4">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
@@ -925,7 +928,7 @@
             </div>
         </footer>
         <footer class="footer-text">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row footer__text">
                     <div class="footer__text-list">
                         <a href="" class="footer__text-item">Chính sách bảo mật</a>
