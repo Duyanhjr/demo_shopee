@@ -9,9 +9,11 @@
     --border-color: #dbdbdb;
     --transparent-color: rgba(0, 0, 0, 0);
     --star-gold-color: #ffce3e;
+
     --header-height: 120px;
     --navbar-height: 33px;
-    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+    --header-sort-bar-height: 46px;
 }
 
 /* css lên tất cả các thẻ html */
