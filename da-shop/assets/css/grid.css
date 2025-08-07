@@ -459,13 +459,13 @@ việc này tác dụng trừ đi phần padding lòi ra ngoài
 
     /* row là con của wide */
     .wide .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -5px;
+        margin-right: -5px;
     }
 
     .wide .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     /* Ẩn đi 1 cột */
@@ -475,6 +475,7 @@ việc này tác dụng trừ đi phần padding lòi ra ngoài
 
     .wide .l-1,
     .wide .l-2,
+    .wide .l-2-4,
     .wide .l-3,
     .wide .l-4,
     .wide .l-5,
@@ -499,6 +500,11 @@ việc này tác dụng trừ đi phần padding lòi ra ngoài
     .wide .l-2 {
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+
+    .wide .l-2-4 {
+        flex: 0 0 20%;
+        max-width: 20%;
     }
 
     .wide .l-3 {
