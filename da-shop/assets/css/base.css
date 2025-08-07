@@ -1,5 +1,7 @@
 /* Code thành phần cấu hình chung */
-
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
 /* Biến giả */
 :root {
     --primary-color: rgb(238, 75, 43);

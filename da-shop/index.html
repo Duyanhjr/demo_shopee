@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DA SHop</title>
     <!-- resetCss -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -170,10 +170,13 @@
                             </svg>
                         </a>
                     </div>
-                    
+
                     <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
 
+                    <div class="header__search-background"></div>
                     <div class="header__search">
+
+
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
                             <div class="header__search-history">
@@ -192,8 +195,13 @@
                             </div>
                         </div>
                         <div class="header__search-select">
-                            <span class="header__search-select-label">Trong shop</span>
-                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+
+                            <label for="mobile-search-select-checkbox">
+                                <span class="header__search-select-label">Trong shop</span>
+                                <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                            </label>
+
+                            <input type="checkbox" hidden id="mobile-search-select-checkbox" class="header__search-select-mobile">
 
                             <ul class="header__search-options">
                                 <li class="header__search-options-item header__search-options-item--active">
@@ -213,9 +221,14 @@
                     </div>
 
                     <div class="header__cart">
+
                         <div class="header__cart-wrap">
-                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
-                            <span class="header__cart-notice">3</span>
+                            <label for="mobile-cart-checkbox">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header__cart-notice">3</span>
+                            </label>
+
+                            <input type="checkbox" hidden id="mobile-cart-checkbox" class="mobile__cart-checkbox">
 
                             <!-- No-cart: header__cart-list--no-cart -->
                             <div class="header__cart-list">
@@ -413,6 +426,7 @@
                                 <a href="" class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -527,6 +541,83 @@
                                 </div>
                             </div>
                         </div>
+
+                        <nav class="mobile-category hide-on-pc">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ & Thiết bị tiệc ích</a>
+                                </li>
+                            </ul>
+                        </nav>
 
                         <div class="home-product">
                             <div class="row">
@@ -976,7 +1067,7 @@
         <footer class="footer-heading">
             <div class="grid wide">
                 <div class="row footer__title">
-                    <div class="grid__column2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Chăm sóc khách hàng</h3>
                         <ul class="footer__list">
                             <li class="footer__list-item">
@@ -990,7 +1081,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Về DA-Shop</h3>
                         <ul class="footer__list">
                             <li class="footer__list-item">
@@ -1004,9 +1095,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column2-4">
+                    <div class="col l-2-4 m-0 c-0">
                     </div>
-                    <div class="grid__column2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Theo dõi chúng tôi</h3>
                         <ul class="footer__list">
                             <li class="footer__list-item">
@@ -1029,7 +1120,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column2-4">
+                    <div class="col l-2-4 m-6 c-6">
                         <h3 class="footer__heading">Đi tới cửa hàng DA-Shop</h3>
                         <div class="footer__dowload">
                             <img src="./assets/img/pic-qr-code-app.png" alt="Dowload QR" class="footer__dowload-qr-img">
@@ -1050,7 +1141,7 @@
         </footer>
         <footer class="footer-text">
             <div class="grid wide">
-                <div class="row footer__text">
+                <div class=" footer__text">
                     <div class="footer__text-list">
                         <a href="" class="footer__text-item">Chính sách bảo mật</a>
                         <a href="" class="footer__text-item">Quy chế hoạt động</a>
